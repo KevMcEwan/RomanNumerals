@@ -1,4 +1,4 @@
-function solution(string) {
+function romanNumeralToInt(string) {
 
     //replaces substrings in string with integers
     var replaceCharsWithInts = string
@@ -45,4 +45,3 @@ function solution(string) {
     return result;
 }
 
-console.log(solution("MMXII"));

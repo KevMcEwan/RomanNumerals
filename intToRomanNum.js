@@ -1,5 +1,5 @@
-function solution(number) {
-    var numberArray = number.toString().split("");
+function intToRomanNumeral(int) {
+    var numberArray = int.toString().split("");
 
     if (numberArray.length == 1) {
         numberArray.unshift(0, 0, 0);
@@ -78,4 +78,3 @@ function solution(number) {
     
 }
 
-console.log(solution(5));
